@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0048)https://www.cs.mtsu.edu/~xyang/2170/cincout.html -->
+<!-- saved from url=(0052)https://www.cs.mtsu.edu/~xyang/2170/constructor.html -->
 <html><div id="gitduck-browser-extension-container"></div><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <title>Standard Input/Output in C++</title>
-  <link href="Standard%20Input_Output%20in%20C++_files/Site.css" rel="stylesheet">
+	<title>Constructor/Destructor</title>
+  <link href="Constructor_Destructor_files/Site.css" rel="stylesheet">
 <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
 @keyframes caretBlink {
     from { opacity: 1.0; }
@@ -184,150 +184,157 @@
 
 <div id="main">
 
-<h1>Standard Input/Output in C++</h1>
-Standard Input and Output in C++ is done through the use of <font color="#0080ff"><b>streams</b></font>. Streams are generic places to send or receive data. In C++, I/O is done through classes and objects defined in the header file <font color="#0080ff"><b>&lt;iostream&gt;</b></font>. <font color="#0080ff"><b>iostream</b></font> stands for standard input-output stream. This header file contains definitions to objects like <font color="#0080ff"><b>cin</b></font>, <font color="#0080ff"><b>cout</b></font>, etc. 
-<br>
-<br>
-<b><font color="#0080ff">cout</font></b> (<b><font color="red">c</font></b>onsole <b><font color="red">out</font></b>put)  is the object to display information on the computer's screen in C++.
-<br>
-<b><font color="#0080ff">cin</font></b> (<b><font color="red">c</font></b>onsole <b><font color="red">in</font></b>put) is the object to read data typed at the keyboard in C++.
-<br>
-<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cincout.png" width="400px" height="250px">
-	<br>
-	<a href="https://www.geeksforgeeks.org/basic-input-output-c/">Reference</a>
-</center>
-<br>
+<h1>Constructor and Destructor</h1>
 
-<h2><font color="#0080ff"><b>Standard output stream (cout)</b></font></h2>
-Usually the standard output device is the display screen. The C++ cout statement is the instance of the ostream class. It is used to produce output on the standard output device which is usually the display screen. The data needed to be displayed on the screen is inserted in the standard output stream (cout) using the <font color="red"><b>stream insertion operator(&lt;&lt;)</b></font>.
-<br>
-<br>
-<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cout1.png" width="60%">
-	<br>
-	<a href="https://www.cs.mtsu.edu/~xyang/codes/coutExample.cpp" target="_blank">coutExample.cpp</a>
-</center>
-<br>
+<h1>Constructor</h1>
 
-<div class="block1">
-<font size="+1" color="red">NOTE:</font><br>
-<ol>
-	<li>You must include the <b><font color="red">&lt;iostream&gt;</font></b> header file in the program to uses cout.
-	</li><li>The last charater in <b><font color="red">endl</font></b> is the lowrcase letter L, not the number one.</li>
-	<li>need to have a stream insertion operator (<font color="red"><b>&lt;&lt;</b></font>) between every two expressions </li>
-			<li>differentiate <font color="red"><b>string literals</b></font> and <font color="red"><b>variable</b></font> in cout statement </li>
-			<li>break the output into multiple statements</li>
-			<li>white space in the output</li>
-</ol>	
+<ul>
+<li>&#9733; A constructor in C++ is a member function that is automatically called when an object of a class is created.</li>
+<li>&#9733; The purpose is to construct an object of the class. In other words, it is used to <b><font color="blue">initialize</font></b> all class data members.</li>
+<li>&#9733; Constructor function name must be same with class name.</li>
+<li>&#9733; Has no return type; not even void!</li>
+<li>&#9733; It is always <b><font color="blue">public</font></b>.</li>
+</ul>
+
+<div class="block3">
+<pre>// Implementation file for the Rectangle class.
+// This version has a constructor.
+#include "Rectangle.h"   // Needed for the Rectangle class
+#include &lt;iostream&gt;      // Needed for cout
+#include &lt;cstdlib&gt;       // Needed for the exit function
+using namespace std;
+
+//***********************************************************
+// The constructor initializes width and length to 0.0.     *
+//***********************************************************
+<b><font color="blue">
+Rectangle::Rectangle()
+{
+   width = 0.0;
+   length = 0.0;
+}
+</font></b>
+</pre>
 </div>
 
-<h2><font color="#0080ff"><b>Standard input stream (cin)</b></font></h2>
-Usually the input device in a computer is the keyboard. C++ cin statement is the instance of the class istream and is used to read input from the standard input device which is usually a keyboard.
-The <b><font color="red">stream extraction operator(&gt;&gt;)</font></b> is used along with the object cin for reading inputs. The extraction operator extracts the data from the object cin which is entered using the keyboard.
+<h2>Code Demo</h2>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV3/main.cpp" target="_blank">main.cpp</a>
 <br>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV3/Rectangle.cpp" target="_blank">Rectangle.cpp</a>
 <br>
-<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cin1.png" width="80%">
-	<br>
-	<a href="https://www.cs.mtsu.edu/~xyang/codes/cinExample.cpp" target="_blank">cinExample.cpp</a>
-</center>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV3/Rectangle.h" target="_blank">Rectangle.h</a>
+
+
+<h2>Default Constructor</h2>
+
+<ul>
+	<li>&#9733; A default constructor is a construcotr that takes no arguments.</li>
+	<li>&#9733; If you write a class with no constructor at all, C++ will
+	write a defulat construcotr for you, one that does nothing.</li>
+	<li>&#9733; Don't provide more than one default constructor for a class</li>
+</ul>
+
+<h2>Overloaded Constructor</h2>
+
+<ul>
+	<li>&#9733; A class can have more than one constructor </li>
+	<li>&#9733; Overloaded construcotrs in a class must have different parameter lists</li>
+</ul>
+
+<div class="block3">
+<pre>// Implementation file for the Rectangle class.
+// This version has a constructor.
+#include "Rectangle.h"   // Needed for the Rectangle class
+#include &lt;iostream&gt;      // Needed for cout
+#include &lt;cstdlib&gt;       // Needed for the exit function
+using namespace std;
+
+
+//***********************************************************
+// The constructor initializes width and length to 0.0.     *
+//***********************************************************
+<b><font color="blue">
+Rectangle::Rectangle()
+{
+   width = 0.0;
+   length = 0.0;
+}
+
+//***********************************************************
+// The constructor initializes width to w and length to l     *
+//***********************************************************
+<b><font color="blue">
+Rectangle::Rectangle(int w, int l)
+{
+   width = w;
+   length = l;
+}
+</font></b>
+</font></b></pre><b><font color="blue">
+</font></b></div><b><font color="blue">
+</font>
+<h2>Code Demo</h2>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV4/main.cpp" target="_blank">main.cpp</a>
 <br>
-<div class="block1">
-<font size="+1" color="red">NOTE:</font><br>
-<ol>
-	<li>You must include the <b><font color="red">&lt;iostream&gt;</font></b> header file in the program to uses cin.
-	</li><li>The cin object causes a program to wait until data is typed at the keyboard and
-	the enter key is pressed. No other lines in the program will be executed until cin gets its input.</li>
-	<li>Before the user enters a data, a <font color="red"><b>prompt should be provided</b></font> to explain what type of
-			information should be entered</li>
-			<li>Leading white spaces are skipped over.</li>
-			<li>The separators for the extraction operator are the white space characters: <b><font color="red">space</font></b>, <b><font color="red">tab</font></b>, and <font color="red"><b>new-line characters</b></font>. 
-</li></ol>	
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV4/Rectangle.cpp" target="_blank">Rectangle.cpp</a>
+<br>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/RectV4/Rectangle.h" target="_blank">Rectangle.h</a>
+
+<h1>Destructor</h1>
+
+<ul>
+	<li>&#9733; Destructor is a member function which destructs or deletes an object.</li>
+	<li>&#9733; Destructor function is automatically invoked when the objects are destroyed. </li> 
+	<li>&#9733; The destructor does not have arguments.</li>
+	<li>&#9733; It has no return type not even void.</li>
+	<li>&#9733; A destructor should be declared in the public section of the class. </li>
+	<li>&#9733; A destructor function is called automatically when the object goes out of scope:</li>
+	<ul>
+	<li>&#9734; the function ends</li>
+	<li>&#9734; the program ends</li>
+	<li>&#9734; a block containing local varaibles ends</li>
+	<li>&#9734; a delete operator is called</li>
+	</ul>
+	<li>&#9733; If we do not write our own destructor in class, compiler creates a default destructor for us. <font color="blue">The default destructor works fine unless we have dynamically allocated memory or pointer in class.</font></li>
+	<li>&#9733; When a class contains a pointer to memory allocated in class, we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leak</li>
+</ul>
+
+<div class="block3">
+<pre>// Implementation file for the Rectangle class.
+// This version has a constructor.
+#include "Rectangle.h"   // Needed for the Rectangle class
+#include &lt;iostream&gt;      // Needed for cout
+#include &lt;cstdlib&gt;       // Needed for the exit function
+using namespace std;
+
+//***********************************************************
+// The constructor initializes width and length to 0.0.     *
+//***********************************************************
+<b><font color="blue">
+Rectangle::Rectangle()
+{
+   width = 0.0;
+   length = 0.0;
+}
+
+Rectangle::~Rectangle()
+{
+
+}
+</font></b>
+</pre>
 </div>
-<br>
-
-<h2>Entering Multiple Values using cin</h2>
-
-<ol>
-	<li><h3>Enetering multiple values of same data type</h3></li>
-<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cinMultiple.png" width="80%">
-	<br>
-	<a href="https://www.cs.mtsu.edu/~xyang/codes/cinMultiple.cpp" target="_blank">cinMultiple.cpp</a>
-</center>
-
-<div class="block1">
-<font size="+1" color="red">NOTE:</font><br>
-<ol>
-			<li>Multiple values from keyboard must be separated by white spaces (space, tab, or new-line)</li>
-			<li>Order is important. First value entered goes to first variable, etc.</li>
-</ol>	
-</div>
-	<li><h3>Enetering multiple values of different data types</h3></li>
-	<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cinMultipleDiff.png" width="50%">
-	<br>
-	<a href="https://www.cs.mtsu.edu/~xyang/codes/cinMultipleDiff.cpp" target="_blank">cinMultipleDiff.cpp</a>
-	</center>
-</ol>
-
-<br>
-	<center>
-	<img src="Standard%20Input_Output%20in%20C++_files/cinBuffer.png" width="60%">
-	</center>
-<br>
-<center>
-<table style="width:60%">
-	<tbody><tr><th><font size="+2" color="blue">Important point</font></th>
-	</tr><tr>
-		<td>cout and cin <font color="red"><b>are not key words</b></font> in the C++ language. They are variables, instances of classes, that have been declared in &lt;iostream&gt;. cout is a variable of type ostream. cin is a variable of type istream.</td>
-	</tr>
-</tbody></table>
-</center>
-
-<h1>Practice Problems</h1>
-
-(1) Write a C++ program that prompts the user to enter 3 integer values, and it displays the mean of the three values.
+<h1>Destructor with Pointer</h1>
+<a href="https://www.cs.mtsu.edu/~xyang/codes/destructorDemo.cpp" target="_blank">Destructor Demo</a>
 
 <br>
 <br>
-<b>Please enter three integer values: 34 20 8</b>
-<br>
-<b>The mean of the three values: 34, 20, and 8 is 20.677</b>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-(2) Write a C++ program that prompts the user to enter the radius of a circle, and it computes and displays the diameter, the circumference, and the area of the circle.
-
-<br>
-<b>
-<br>Please enter the radius of the circle (cm): 2.0 
-<br>
-The radius of a circle = 2.0 cm.
-<br>
-The diameter of the circle = 4.0 cm.
-<br>
-The circumference of the circle = 12.57 cm
-<br>
-The area of the circle = 12.57 cm^2.
-</b>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 	<footer align="center" id="foot01"></footer>
-</div>
+</b></div><b>
 
 <br>
 <br>
 
 
-<div class="betternet-wrapper"></div></body></html>
+</b><div class="betternet-wrapper"></div></body></html>
