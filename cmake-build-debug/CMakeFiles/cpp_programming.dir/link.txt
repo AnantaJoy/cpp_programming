@@ -1,3 +1,0 @@
-"C:\Users\Ananta Asim\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cpp_programming.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cpp_programming.dir/objects.a @CMakeFiles\cpp_programming.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cpp_programming.dir/objects.a -Wl,--no-whole-archive -o cpp_programming.exe -Wl,--out-implib,libcpp_programming.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpp_programming.dir\linklibs.rsp
