@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="HelloWorld" targetName="HelloWorld" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32ce5e63-31e4-4ba0-b4fe-f9563fa68c17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/cpp_programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00 Hello World/hello.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00 Hello World/hello.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00 Hello World/hello1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 Variables and Data Types/string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 Variables and Data Types/stringLength.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 Variables and Data Types/subString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 Variables and Data Types/variables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 Variables and Data Types/variables2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 Conditions/if_else.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 Input/area_circle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 Input/implicitConversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 Input/mean.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 Input/typeCast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 Functions/func.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 Functions/func_in_header.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 Functions/header.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 Functions/multiply.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 Functions/return_value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 Conditions/else.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 Conditions/if.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 Conditions/leap_year.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 Conditions/turnary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06 File Operations/demo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06 File Operations/fstream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06 File Operations/ifstreamExample.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 Arrays/arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 Arrays/arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 Arrays/ndim_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Arrays.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Arrays_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Binary Search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Binary Search_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Constructor_Destructor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Constructor_Destructor_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/ifstream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/ofstream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/polyfill.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/readData.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/tex-chtml.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/File Operations_files/writeData.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/setprecision.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/setprecisionOutput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/setw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/setwOutput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Formatting Output_files/streamManipulator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Introduction to Classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Introduction to Classes_files/OOP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Introduction to Classes_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Pointers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Pointers_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Pointers_files/pointer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Recursive Functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Recursive Functions_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Recursive Functions_files/factorial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Recursive Functions_files/fibonacci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Relational &amp; Logical Operators in C++.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Relational &amp; Logical Operators in C++_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Relational &amp; Logical Operators in C++_files/logicalOperator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/00computer-language-types.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/01 CompilationPhaseDiagram.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/02strC++.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/DataTypes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/IntegerDataType.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/boolExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/charExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/floatDataType.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/floatingExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Data Types_files/integerExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cinBuffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cinMultiple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cinMultipleDiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cincout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/Standard Input_Output in C++_files/cout1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/do-while.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/restaurantBill.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/roomArea.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/stringChar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Slides/unix.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/ceil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/ceilOutput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/floorOutput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/pow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/rand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Standard Library Functions_files/tex-chtml.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Structured Programming V.S. Object Oriented Programming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Structured Programming V.S. Object Oriented Programming_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Structured Programming V.S. Object Oriented Programming_files/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Structured Programming V.S. Object Oriented Programming_files/structProg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/The while Loop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/The while Loop_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/The while Loop_files/while1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/The while Loop_files/while2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/The while Loop_files/whileInputValidation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/bubbleSort.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/character testing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/character testing_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/character testing_files/charTesting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++_files/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++_files/ifExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++_files/ifelseExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++_files/leap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/if, if_else, and if_else if Statements in C++_files/multiway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c/hello.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c/hello.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Progress/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cpp_programming.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cpp_programming.cbp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2ManhSvtKVDhScwgATyrvEC0ekE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HelloWorld" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HelloWorld" TARGET_NAME="HelloWorld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HelloWorld" RUN_TARGET_NAME="HelloWorld">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32ce5e63-31e4-4ba0-b4fe-f9563fa68c17" name="Changes" comment="" />
+      <created>1678014679973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678014679973</updated>
+      <workItem from="1678014682267" duration="132000" />
+      <workItem from="1678014834791" duration="793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
