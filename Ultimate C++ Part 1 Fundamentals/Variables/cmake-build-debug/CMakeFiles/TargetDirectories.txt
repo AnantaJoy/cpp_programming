@@ -1,8 +1,0 @@
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables_const.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables_naming.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables_math.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables_order.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/Variables_input.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ananta/Desktop/cpp_programming/Variables/cmake-build-debug/CMakeFiles/rebuild_cache.dir
