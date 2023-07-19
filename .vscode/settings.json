@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "/home/ananta/Desktop/cpp_programming/Ultimate C++ Fundamentals/Data Types"
 }
